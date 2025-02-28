@@ -1,4 +1,4 @@
-.root{
+:root{
     /** 
         COLORS
     **/
@@ -97,7 +97,7 @@
 
  }
  
- img {height: auto;}
+ img {height:auto;}
 
  input,
  button{
@@ -151,7 +151,7 @@ body{
     font-family: 'Material Symbols Rounded';
     font-style: "normal";
     font-weight: 400;
-    src: url(../weather_app/assets/font/material-symbol-rounded.woff2) format('woff2');
+    src: url(assets/font/material-symbol-rounded.woff2) format('woff2');
 
 }
 
@@ -173,6 +173,23 @@ body{
     width: 1em;
     overflow: hidden;
 
+}
+
+.container{
+    max-width:1600px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 16px;
+
+}
+
+.icon-btn{
+    background-color: var(--white-alpha-8);
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center ;
+    border-radius: var(--radius-circle);
 }
 
 
